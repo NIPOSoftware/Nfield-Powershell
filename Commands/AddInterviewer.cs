@@ -2,6 +2,10 @@
 using Nfield.Infrastructure;
 using Nfield.Models;
 using Nfield.PowerShell.Helpers;
+using Nfield.PowerShell.Helpers.Abstract;
+using Nfield.PowerShell.Helpers.Concrete;
+using Nfield.PowerShell.Managers.Abstract;
+using Nfield.PowerShell.State;
 
 namespace Nfield.PowerShell.Commands
 {
@@ -12,7 +16,7 @@ namespace Nfield.PowerShell.Commands
         public Domain Domain { get; set; }
 
         [Parameter(ValueFromPipeline = true, ValueFromRemainingArguments = true)]
-        [CustomInterviewerValidatorAttribute]
+        [CustomInterviewerValidator]
         public PSObject Input { get; set; }
 
         protected override void ProcessRecord()

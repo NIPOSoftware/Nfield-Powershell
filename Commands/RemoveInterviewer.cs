@@ -1,6 +1,9 @@
 ﻿using System.Management.Automation;
 using Nfield.Infrastructure;
 using Nfield.Models;
+using Nfield.PowerShell.Helpers.Abstract;
+using Nfield.PowerShell.Managers.Abstract;
+using Nfield.PowerShell.State;
 
 namespace Nfield.PowerShell.Commands
 {

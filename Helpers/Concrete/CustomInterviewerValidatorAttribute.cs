@@ -2,10 +2,11 @@
 using System.Management.Automation;
 using Nfield.Infrastructure;
 using Nfield.Models;
+using Nfield.PowerShell.Helpers.Abstract;
 
-namespace Nfield.PowerShell.Helpers
+namespace Nfield.PowerShell.Helpers.Concrete
 {
-    [AttributeUsageAttribute(AttributeTargets.Property | AttributeTargets.Field)]
+    [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field)]
     public class CustomInterviewerValidatorAttribute : ValidateEnumeratedArgumentsAttribute
     {
         private string message;

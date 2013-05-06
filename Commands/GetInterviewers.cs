@@ -1,6 +1,9 @@
-﻿using System.Linq;
-using Nfield.Infrastructure;
-using System.Management.Automation;       // Windows PowerShell namespace.
+﻿using Nfield.Infrastructure;
+using System.Management.Automation;
+using Nfield.PowerShell.Managers.Abstract;
+using Nfield.PowerShell.State;
+
+// Windows PowerShell namespace.
 
 namespace Nfield.PowerShell.Commands
 {

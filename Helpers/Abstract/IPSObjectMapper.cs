@@ -4,7 +4,7 @@ using System.Linq;
 using System.Management.Automation;
 using System.Text;
 
-namespace Nfield.PowerShell
+namespace Nfield.PowerShell.Helpers.Abstract
 {
     /// <summary>
     /// Map PSObjects from and to our types

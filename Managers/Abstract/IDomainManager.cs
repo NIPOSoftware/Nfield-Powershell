@@ -1,6 +1,7 @@
 ﻿using Nfield.Infrastructure;
+using Nfield.PowerShell.State;
 
-namespace Nfield.PowerShell
+namespace Nfield.PowerShell.Managers.Abstract
 {
     public interface IDomainManager
     {

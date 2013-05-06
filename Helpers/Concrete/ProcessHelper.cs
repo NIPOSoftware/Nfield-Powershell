@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections;
 using System.Management.Automation;
+using Nfield.PowerShell.Helpers.Abstract;
 
-namespace Nfield.PowerShell.Helpers
+namespace Nfield.PowerShell.Helpers.Concrete
 {
     internal class ProcessHelper : IProcessHelper
     {

@@ -2,7 +2,8 @@
 using System.Management.Automation;
 using Moq;
 using Nfield.Models;
-using Nfield.PowerShell.Helpers;
+using Nfield.PowerShell.Helpers.Abstract;
+using Nfield.PowerShell.Helpers.Concrete;
 using Xunit;
 
 namespace Nfield.PowerShell.Tests

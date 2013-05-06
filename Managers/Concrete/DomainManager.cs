@@ -1,6 +1,8 @@
 ﻿using Nfield.Infrastructure;
+using Nfield.PowerShell.Managers.Abstract;
+using Nfield.PowerShell.State;
 
-namespace Nfield.PowerShell.Implementation
+namespace Nfield.PowerShell.Managers.Concrete
 {
     internal class DomainManager : IDomainManager
     {

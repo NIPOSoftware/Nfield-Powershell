@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Management.Automation;
 
-namespace Nfield.PowerShell
+namespace Nfield.PowerShell.Helpers.Abstract
 {
     /// <summary>
     /// Process helpers

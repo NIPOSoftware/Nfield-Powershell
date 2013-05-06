@@ -1,6 +1,8 @@
 ﻿using Nfield.Infrastructure;
-using Nfield.PowerShell.Helpers;
-using Nfield.PowerShell.Implementation;
+using Nfield.PowerShell.Helpers.Abstract;
+using Nfield.PowerShell.Helpers.Concrete;
+using Nfield.PowerShell.Managers.Abstract;
+using Nfield.PowerShell.Managers.Concrete;
 using Ninject;
 using System;
 using System.Management.Automation;       // Windows PowerShell namespace.

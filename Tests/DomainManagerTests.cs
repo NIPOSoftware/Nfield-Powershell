@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using Moq;
 using Nfield.Infrastructure;
-using Nfield.PowerShell.Implementation;
+using Nfield.PowerShell.Managers.Concrete;
 using Xunit;
 
 namespace Nfield.PowerShell.Tests

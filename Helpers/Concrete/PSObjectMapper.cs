@@ -2,8 +2,9 @@
 using System.Globalization;
 using System.Management.Automation;
 using System.Reflection;
+using Nfield.PowerShell.Helpers.Abstract;
 
-namespace Nfield.PowerShell.Helpers
+namespace Nfield.PowerShell.Helpers.Concrete
 {
     internal class PSObjectMapper : IPSObjectMapper
     {

@@ -1,6 +1,6 @@
 ﻿using Nfield.Infrastructure;
 
-namespace Nfield.PowerShell
+namespace Nfield.PowerShell.State
 {
     public class Domain
     {

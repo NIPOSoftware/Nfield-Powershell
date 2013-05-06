@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Management.Automation;
 using System.Threading.Tasks;
 using Moq;
 using Nfield.Infrastructure;
 using Nfield.Models;
-using Nfield.PowerShell.Implementation;
+using Nfield.PowerShell.Managers.Concrete;
 using Nfield.Services;
 using Xunit;
 

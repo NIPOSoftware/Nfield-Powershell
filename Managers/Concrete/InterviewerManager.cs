@@ -2,9 +2,10 @@
 using System.Linq;
 using Nfield.Infrastructure;
 using Nfield.Models;
+using Nfield.PowerShell.Managers.Abstract;
 using Nfield.Services;
 
-namespace Nfield.PowerShell.Implementation
+namespace Nfield.PowerShell.Managers.Concrete
 {
     public class InterviewerManager : IInterviewerManager
     {

@@ -72,26 +72,27 @@
     <Compile Include="Commands\GetInterviewer.cs" />
     <Compile Include="Commands\UpdateInterviewer.cs" />
     <Compile Include="Commands\RemoveInterviewer.cs" />
-    <Compile Include="Domain.cs" />
+    <Compile Include="State\Domain.cs" />
     <Compile Include="Commands\GetInterviewers.cs" />
-    <Compile Include="Helpers\CustomInterviewerValidatorAttribute.cs" />
-    <Compile Include="Helpers\ProcessHelper.cs" />
-    <Compile Include="Helpers\PSObjectMapper.cs" />
-    <Compile Include="IDomainManager.cs" />
-    <Compile Include="IInterviewerManager.cs" />
-    <Compile Include="Implementation\DomainManager.cs" />
+    <Compile Include="Helpers\Concrete\CustomInterviewerValidatorAttribute.cs" />
+    <Compile Include="Helpers\Concrete\ProcessHelper.cs" />
+    <Compile Include="Helpers\Concrete\PSObjectMapper.cs" />
+    <Compile Include="Managers\Abstract\IDomainManager.cs" />
+    <Compile Include="Managers\Abstract\IInterviewerManager.cs" />
+    <Compile Include="Managers\Concrete\DomainManager.cs" />
     <Compile Include="Commands\OpenDomain.cs" />
-    <Compile Include="Implementation\InterviewerManager.cs" />
-    <Compile Include="IProcessHelper.cs" />
-    <Compile Include="IPSObjectMapper.cs" />
+    <Compile Include="Managers\Concrete\InterviewerManager.cs" />
+    <Compile Include="Helpers\Abstract\IProcessHelper.cs" />
+    <Compile Include="Helpers\Abstract\IPSObjectMapper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Nfield.PowerShell.psd1">
+    <None Include="Manifest\Nfield.PowerShell.psd1">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

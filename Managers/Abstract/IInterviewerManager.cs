@@ -2,7 +2,7 @@
 using Nfield.Infrastructure;
 using Nfield.Models;
 
-namespace Nfield.PowerShell
+namespace Nfield.PowerShell.Managers.Abstract
 {
     public interface IInterviewerManager
     {

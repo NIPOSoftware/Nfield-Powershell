@@ -1,5 +1,6 @@
 ﻿using System.Management.Automation;
 using Nfield.PowerShell.Helpers;
+using Nfield.PowerShell.Helpers.Concrete;
 using Xunit;
 using Nfield.Models;
 
