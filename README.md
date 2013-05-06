@@ -10,7 +10,6 @@ This repo contains a set of PowerShell cmdlets to manage your Nfield services.
 
 * Domain
   * Open a domain
-
 * Interviewer
   * Get a list of interviewers in your domain
   * Managing interviewers by get, add, update and remove commands (basic CRUD operations)
@@ -83,8 +82,8 @@ After signing in successfully, these are the cmdlets that can be used to manage 
 6. Import from csv  
 ``` import-csv -path FULL_PATH_YOUR_CSV_FILE | add-interviewer -domain $myDomain ```  
 Here is an example of a csv file:  
-```FirstName,LastName,Password,ClientInterviewerId,UserName,EmailAddress,TelephoneNumber```  
-```Sales,Team,password12,sales123,sales,sales@niposoftware.com,31205225989```
+``` FirstName,LastName,Password,ClientInterviewerId,UserName,EmailAddress,TelephoneNumber ```   
+``` Sales,Team,password12,sales123,sales,sales@niposoftware.com,31205225989 ```   
 
 
 # Feedback
