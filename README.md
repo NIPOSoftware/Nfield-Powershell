@@ -56,8 +56,18 @@ Now using the credentials object created with the previous cmdlet this is how to
 After signing in successfully, these are the cmdlets that can be used to manage interviewers:
 
 1. Add interviewer
-```$interviewer = New-Object Nfield.Models.Interviewer -Property @{'FirstName'="Sales"; 'LastName'="Team"; 'Password'="password12"; 'ClientInterviewerId'="sales123"; 'UserName'="sales"; 'EmailAddress'="sales@niposoftware.com"; 'TelephoneNumber'="31205225989"}```  
-```add-interviewer -domain $myDomain -input  $interviewer```
+```
+$interviewer = New-Object Nfield.Models.Interviewer -Property @{
+  'FirstName'="Sales"; 
+  'LastName'="Team"; 
+  'Password'="password12"; 
+  'ClientInterviewerId'="sales123"; 
+  'UserName'="sales"; 
+  'EmailAddress'="sales@niposoftware.com"; 
+  'TelephoneNumber'="31205225989"
+}
+add-interviewer -domain $myDomain -input  $interviewer
+```
 
 2. Get interviewer 
   1. username equals sales  
@@ -82,8 +92,10 @@ After signing in successfully, these are the cmdlets that can be used to manage 
 6. Import from csv  
 ``` import-csv -path FULL_PATH_YOUR_CSV_FILE | add-interviewer -domain $myDomain ```  
 Here is an example of a csv file:  
-``` FirstName,LastName,Password,ClientInterviewerId,UserName,EmailAddress,TelephoneNumber ```   
-``` Sales,Team,password12,sales123,sales,sales@niposoftware.com,31205225989 ```   
+``` 
+FirstName,LastName,Password,ClientInterviewerId,UserName,EmailAddress,TelephoneNumber    
+Sales,Team,password12,sales123,sales,sales@niposoftware.com,31205225989 
+```   
 
 
 # Feedback
