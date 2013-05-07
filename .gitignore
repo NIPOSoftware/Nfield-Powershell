@@ -27,4 +27,6 @@ _ReSharper*/
 *.ncrunch*
 .*crunch*.local.xml
 
-/packages/
+# Ignore the packages except the repositories.config
+/packages/*
+!/packages/repositories.config
