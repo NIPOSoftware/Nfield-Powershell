@@ -5,6 +5,7 @@ This repo contains a set of PowerShell cmdlets to manage your Nfield services.
 # Requirements
 
 * To make use of these cmdlets you need an Nfield account.  
+* PowerShell 3.0
 
 # Cmdlets Features
 
@@ -30,7 +31,7 @@ To get the source code via git just type:
 
 3. Edit the file in a text editor and add the following contents
 
-   ```Import-Module PATH_TO_NFIELD-POWERSHELL_CLONE\bin\Release\Nfield.PowerShell.psd1```
+   ```Import-Module PATH_TO_NFIELD-POWERSHELL_CLONE\bin\Release\Manifest\Nfield.PowerShell.psd1```
 
 4. After you build the cmdlets project in Release mode, you can then open a PowerShell window and you should be able to use the cmdlets. Please note that if you want to rebuild the project, you have close the PowerShell window, and then reopen it.
 
@@ -40,7 +41,7 @@ To get the source code via git just type:
 
 2. Start a new PowerShell session and use the Import-Module cmdlet by passing it the path of the Nfield PowerShell Manifest file __Nfield.PowerShell.psd1__ under the Release output directory
 
-   ```Import-Module PATH_TO_NFIELD-POWERSHELL_CLONE\bin\Release\Nfield.PowerShell.psd1```
+   ```Import-Module PATH_TO_NFIELD-POWERSHELL_CLONE\bin\Release\Manifest\Nfield.PowerShell.psd1```
 
 # Code Samples
 Before you can take advantage of the Nfield PowerShell cmdlets you have to sign in to a domain in your PowerShell session
