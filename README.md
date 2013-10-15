@@ -52,7 +52,7 @@ Signing into a domain using your Nfield credentials. This will prompt a username
 
 Now using the credentials object created with the previous cmdlet this is how to do the actual signing in:
 
-```$myDomain = open-domain -serverurl https://manager.nfieldmr.com/v1/ -domainname "testdomain" -credential $myCredential```
+```$myDomain = open-domain -serverurl https://api.nfieldmr.com/v1/ -domainname "testdomain" -credential $myCredential```
 
 After signing in successfully, these are the cmdlets that can be used to manage interviewers:
 
